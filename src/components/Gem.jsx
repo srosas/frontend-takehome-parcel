@@ -13,7 +13,7 @@ const Gem = (props) => {
         </div>
         <div className="gem-buttons">
           <button className="gem-save" onClick={() => addToSaved(gem)}>Save</button>
-          <button onClick={() => removeFromSaved(gem)}>Unsave</button>
+          <button className="gem-back" onClick={() => removeFromSaved(gem)}>Unsave</button>
         </div>
       </div>
       <h4 className="gem-info">{gem.info}</h4>

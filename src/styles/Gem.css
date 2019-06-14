@@ -1,5 +1,7 @@
 .gem-container {
+  margin-bottom: 4px;
   border-bottom: 2px solid black;
+  box-shadow: 4px 4px gray;
 }
 .gem {
   display: flex;
@@ -34,4 +36,7 @@
 
 .gem-save {
   margin-right: 10px;
+}
+.gem-back {
+  margin-right: 5px;
 }

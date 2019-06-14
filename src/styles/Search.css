@@ -4,9 +4,12 @@
   margin: 20px;
   font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 2px 2px gray;
+  box-sizing: border-box;
 }
 
 button {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
+  box-shadow: 2px 2px gray;
 }
